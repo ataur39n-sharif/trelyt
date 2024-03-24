@@ -40,7 +40,7 @@ const OurTeams: React.FC = () => {
                                 <h3 className="text-[15px] md:text-[24px] font-[600]">Ataur Rahman</h3>
                                 <span className=' h-[30px] w-[2px] bg-dark_color/30 inline-block mx-[10px]'></span>
                                 <div> 
-                                    <h3 className="text-[14px] md:text-[18px] font-bold">Coder's Hub</h3>
+                                    <h3 className="text-[14px] md:text-[18px] font-bold">Coder&apos;s Hub</h3>
                                 </div>
                             </div>
                             <div className='w-full h-[2px] bg-dark_color/40 my-[4px]'></div>
