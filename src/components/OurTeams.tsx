@@ -17,7 +17,7 @@ const OurTeams: React.FC = () => {
                         </div>
                         <span className=' h-[30px] w-[2px] bg-dark_color/30 inline-block mx-[10px]'></span>
                         <div className='partner_item cursor-pointer'>
-                            <h3 className=" text-[18px] md:text-[24px] font-[500]">Coder's Hub</h3>
+                            <h3 className=" text-[18px] md:text-[24px] font-[500]">Coder&apos;s Hub</h3>
                         </div>
                         
                     </div>
