@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <main className="">
         <HeroSection />
-        <OurVision />
         <OurMission />
+        <OurVision />
         <OurTeams />
         <ContactUs />
         {/* <Faq /> */}

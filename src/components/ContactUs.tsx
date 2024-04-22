@@ -26,7 +26,7 @@ const ContactUs = () => {
                 <div className='py-[40px]'>
                     <div className='flex items-center  py-[10px]'>
                         <IoLocationOutline className='w-[30px] h-[30px] mr-[20px]' />
-                        <p><strong>Location:</strong> 30 N GOULD ST STE R,SHERIDAN,, WY 82801, United States</p>
+                        <p><strong>Location:</strong> 30 N GOULD ST STE R,SHERIDAN, WY 82801, United States</p>
                     </div>
                     <div className='flex items-center  py-[10px]'>
                         <MdOutlinePhone className='w-[30px] h-[30px] mr-[20px]' />

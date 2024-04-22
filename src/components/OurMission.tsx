@@ -1,4 +1,4 @@
-import { forum, inter, roboto } from "@/ThemeSettings";
+import { inter } from "@/ThemeSettings";
 import Image from "next/image";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -12,10 +12,10 @@ const OurMission = () => {
                 <h2 className="text-[48px] md:text-[58px] lg:text-[68px] xl:text-[78px] leading-[58px] md:leading-[68px] lg:leading-[74px] xl:leading-[84px] uppercase font-[600] w-full md:w-[400px]">Our  <span className="text-[48px] md:text-[68px]">++</span> <span className=" text-primary_color">Mission</span></h2>
                 <p>
                     <span className="block pt-[20px] pb-[10px] text-[17px] md:text-[22px] leading-[27px] md:leading-[36px] font-[300]">
-                        To be the most trusted and respected professional services firm recognized by our clients for delivering excellence.
+                        {/* To be the most trusted and respected professional services firm recognized by our clients for delivering excellence. */}
                     </span>
 
-                    <span className="text-[17px] md:text-[22px] leading-[27px] md:leading-[36px] font-[300]">We are committed to providing a high-quality service to our clients, and we are always looking for ways to improve. Our goal is to be the best in our industry and to provide our clients with the best possible service.</span>
+                    <span className="text-[17px] md:text-[22px] leading-[27px] md:leading-[36px] font-[300]">Our mission is to empower individuals and businesses by providing innovative IT solutions that prioritize web and software services, removing barriers to productivity and growth. Through our SaaS applications and community-driven learning platforms, we aim to facilitate seamless and secure transactions for freelancers, shopkeepers, content creators, and learners worldwide. Committed to social responsibility, we actively engage in community development and support initiatives, ensuring that technology benefits everyone.</span>
 
                 </p>
                 <div className="flex items-center pt-[40px]">
