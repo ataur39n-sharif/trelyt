@@ -1,12 +1,13 @@
 import { inter } from "@/ThemeSettings";
 import Image from "next/image";
 import { LuChevronRight } from "react-icons/lu";
+import mission from '../../public/mission_-bl.png';
 
 const OurMission = () => {
     return (
         <section id="mission" className={` bg-primary_color text-secondary_color ${inter.className} grid grid-cols-1 lg:grid-cols-2 gap-0`}>
-            <div className=" vission_image_wraper flex justify-start pl-[20px] md:pl-[60px] lg:pl-[150px] py-[20px] md:py-[30px] xl:py-[60px]"> 
-                <Image src="/vision.jpg" alt="Our Vision" width={500} height={500} />
+            <div className=" vission_image_wraper flex justify-start pl-[20px] md:pl-[60px] lg:pl-[150px] py-[20px] md:py-[30px] xl:py-[60px]">
+                <Image className="w-[500px] h-[500px] m-auto" src={mission} alt="Our Vision" width={500} height={500} />
             </div>
             <div className="bg-secondary_color text-light_color pr-[20px] md:pr-[60px] lg:pr-[150px] pl-[20px] md:pl-[30px] xl:pl-[60px] py-[20px] md:py-[30px] xl:py-[60px]">
                 <h2 className="text-[48px] md:text-[58px] lg:text-[68px] xl:text-[78px] leading-[58px] md:leading-[68px] lg:leading-[74px] xl:leading-[84px] uppercase font-[600] w-full md:w-[400px]">Our  <span className="text-[48px] md:text-[68px]">++</span> <span className=" text-primary_color">Mission</span></h2>
