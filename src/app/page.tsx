@@ -7,8 +7,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "TRELYT - We are a team of passionate developers",
-  description: " We are a team of passionate developers who are dedicated to creating the best software solutions for our clients. We specialize in web development, and custom software development. Our goal is to help you achieve your business goals by providing you with the best software solutions. Contact us today to learn more about how we can help you!",
+  title: "TRELYT - Empowering Dreams | Trelyt - Innovative IT Solutions & Community Learning Platform",
+  description: "Discover innovative IT solutions designed to empower individuals and businesses at [Your Company Name]. Explore our range of web and software services, payment solutions, and community-driven learning platforms. Join our global community and unlock your potential today!",
 };
 
 
