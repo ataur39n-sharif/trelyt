@@ -11,7 +11,7 @@ const HeroSection = () => {
                 </h1>
                 {/* <div className=" flex justify-center"> */}
                     <p className=" text-secondary_color/70 text-[16px] md:text-[18px] font-normal pt-[10px] max-w-[800px]">
-                        Unlock your potential with our cutting-edge IT solutions, designed to remove barriers and ignite growth. Whether you're a freelancer, shopkeeper, content creator, or eager learner, we have the tools and support you need to succeed. Join our community and discover a world where technology works for you, enabling your dreams and driving your success.
+                        Unlock your potential with our cutting-edge IT solutions, designed to remove barriers and ignite growth. Whether you&apos;re a freelancer, shopkeeper, content creator, or eager learner, we have the tools and support you need to succeed. Join our community and discover a world where technology works for you, enabling your dreams and driving your success.
                     </p>
                 {/* </div> */}
 
