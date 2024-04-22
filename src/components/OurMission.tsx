@@ -4,7 +4,7 @@ import { LuChevronRight } from "react-icons/lu";
 
 const OurMission = () => {
     return (
-        <section className={` bg-primary_color text-secondary_color ${inter.className} grid grid-cols-1 lg:grid-cols-2 gap-0`}>
+        <section id="mission" className={` bg-primary_color text-secondary_color ${inter.className} grid grid-cols-1 lg:grid-cols-2 gap-0`}>
             <div className=" vission_image_wraper flex justify-start pl-[20px] md:pl-[60px] lg:pl-[150px] py-[20px] md:py-[30px] xl:py-[60px]"> 
                 <Image src="/vision.jpg" alt="Our Vision" width={500} height={500} />
             </div>

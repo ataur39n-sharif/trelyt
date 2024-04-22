@@ -18,7 +18,7 @@ const ContactUs = () => {
     };
 
     return (
-        <section className='grid grid-cols-1 md:grid-cols-6 gap-0'>
+        <section className='grid grid-cols-1 md:grid-cols-6 gap-0' id='contact_us'>
             <div className='text-light_color bg-secondary_color col-span-1 md:col-span-3 pl-[20px] md:pl-[60px] lg:pl-[150px] py-[80px]'>
 
                 <h2 className="text-[48px] md:text-[58px] lg:text-[68px] xl:text-[78px] leading-[58px] md:leading-[68px] lg:leading-[74px] xl:leading-[84px] uppercase font-[600] w-full md:w-[400px]"><span className=" text-primary_color">Get in</span> touch </h2>

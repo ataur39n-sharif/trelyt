@@ -5,7 +5,7 @@ import { LuChevronRight } from "react-icons/lu";
 
 const OurVision = () => {
     return (
-        <section className={`px-[20px] md:px-[60px] lg:px-[150px] py-[30px] md:py-[60px] bg-secondary_color text-light_color ${inter.className} grid grid-cols-1 lg:grid-cols-2 gap-5`}>
+        <section id="vision" className={`px-[20px] md:px-[60px] lg:px-[150px] py-[30px] md:py-[60px] bg-secondary_color text-light_color ${inter.className} grid grid-cols-1 lg:grid-cols-2 gap-5`}>
             <div className="">
                 <h2 className="text-[48px] md:text-[58px] lg:text-[68px] xl:text-[78px] leading-[58px] md:leading-[68px] lg:leading-[74px] xl:leading-[84px] uppercase font-[600] w-full md:w-[400px]">Our <span className="text-[48px] md:text-[68px]">++</span> <span className=" text-primary_color">Vision</span></h2>
                 <p>
