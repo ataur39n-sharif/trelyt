@@ -1,9 +1,9 @@
 'use client'
-import { useState } from 'react';
-import { LuChevronRight } from 'react-icons/lu';
-import { IoLocationOutline } from "react-icons/io5";
-import { MdOutlinePhone, MdOutlineMail } from "react-icons/md";
 import Link from 'next/link';
+import { useState } from 'react';
+import { IoLocationOutline } from "react-icons/io5";
+import { LuChevronRight } from 'react-icons/lu';
+import { MdOutlineMail, MdOutlinePhone } from "react-icons/md";
 
 
 
@@ -26,15 +26,15 @@ const ContactUs = () => {
                 <div className='py-[40px]'>
                     <div className='flex items-center  py-[10px]'>
                         <IoLocationOutline className='w-[30px] h-[30px] mr-[20px]' />
-                        <p><strong>Location:</strong> 1234 Elm St. Springfield, IL 62701, United States</p>
+                        <p><strong>Location:</strong> 30 N GOULD ST STE R,SHERIDAN,, WY 82801, United States</p>
                     </div>
                     <div className='flex items-center  py-[10px]'>
                         <MdOutlinePhone className='w-[30px] h-[30px] mr-[20px]' />
-                        <p><strong>Phone:</strong> (555) 555-5555</p>
+                        <p><strong>Phone:</strong> (812) 445-1050</p>
                     </div>
                     <div className='flex items-center py-[10px]'>
                         <MdOutlineMail className='w-[30px] h-[30px] mr-[20px]' />
-                        <p><strong>Email:</strong> <Link href="mailto:" className='text-primary_color'>example@trelyt.com </Link></p>
+                        <p><strong>Email:</strong> <Link href="mailto:hello@trelyt.com" className='text-primary_color'>hello@trelyt.com </Link></p>
                     </div>
                     
                     

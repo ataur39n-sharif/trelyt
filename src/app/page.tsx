@@ -1,5 +1,4 @@
 import ContactUs from "@/components/ContactUs";
-import Faq from "@/components/Faq";
 import HeroSection from "@/components/HeroSection";
 import OurMission from "@/components/OurMission";
 import OurTeams from "@/components/OurTeams";
@@ -25,7 +24,7 @@ export default function Home() {
         <OurMission />
         <OurTeams />
         <ContactUs />
-        <Faq />
+        {/* <Faq /> */}
     </main>
   );
 }
