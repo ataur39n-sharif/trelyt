@@ -1,4 +1,4 @@
-name: Publish Docker image
+name:  Deploy with CI CD
 
 on:
   push:
@@ -36,13 +36,7 @@ jobs:
   update_ssh_linode:
     name: Telling Linode Server to Update
     needs: "push_to_registry"
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          script: bash trelyt.com/update.sh
+      - name: run the update script
+        run: sudo bash /home/ubuntu/trelyt_website/website/update.sh
