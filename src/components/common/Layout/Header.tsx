@@ -1,8 +1,7 @@
 'use client';
 import { inter } from "@/ThemeSettings";
-import Clarity from '@microsoft/clarity';
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import Logo from "../Logo";
 import OverlaySidebar from "./OverlaySidebar";
@@ -29,9 +28,6 @@ const menus = [
 const Header = () => {
 
     const [open, setOpen] = useState(false)
-    useEffect(() => {
-        Clarity.init('rb0aarejdj')
-    }, [])
 
     return (
         <header className={`h-full px-[20px] md:px-[60px] lg:px-[150px] bg-secondary_color ${inter.className} `}>
